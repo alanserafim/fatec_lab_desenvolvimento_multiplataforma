@@ -4,7 +4,7 @@ const app = express()
 const porta = 8081
 
 app.listen(porta, function(){
-    console.log(`Servidor ativo na porta 8081 \nhttp://localhost:${porta}`);
+    console.log(`Servidor ativo na porta ${porta} \nhttp://localhost:${porta}`);
 })
 
 app.get("/", function(req, res){
